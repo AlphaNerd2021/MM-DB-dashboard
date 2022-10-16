@@ -25,7 +25,7 @@ export const ChartColorSchemes = [
   '#00DB7C',
   '#FF395E',
   '#555572',
-  '#0E69A1',
+  '#38ffe4',
   '#ED6815',
   '#11C24C',
   '#15D0ED',

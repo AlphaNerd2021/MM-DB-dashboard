@@ -9,18 +9,18 @@
 
 .loadingError {
   font-size: 58px;
-  color: #ffffff;
+  color: #131313;
 }
 
 .index {
   padding: 38px 30px;
-  background: #1e3b4d;
+  background: #000000;
   min-height: 100vh;
 }
 
 .empty {
   position: relative;
-  background: #1e3b4d;
+  background: #000;
   min-height: 100vh;
   text-align: center;
 }
@@ -30,7 +30,7 @@
   height: 170px;
   border-radius: 100%;
   padding-top: 30px;
-  background: #3E5566;
+  background: #000;
   margin: 0 auto 14px auto;
 }
 
@@ -135,14 +135,14 @@
   width: 100%;
   display: inline-block;
   font-size: 22px;
-  color: white;
+  color: #38ffe4;
 }
 
 .details {
   flex: auto;
   overflow: hidden;
   padding: 9px 0;
-  color: #788c97;
+  color: #38ffe4;
   font-size: 12px;
 
   > div:first-of-type {

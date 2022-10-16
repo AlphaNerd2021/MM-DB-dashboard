@@ -16,7 +16,7 @@
   padding: 8px;
 
   svg {
-    fill: #66637A;
+    fill: #38ffe4;
   }
 
   &:hover svg {
@@ -25,16 +25,16 @@
 
   &.disabled {
     cursor: not-allowed;
-    color: #66637A;
+    color: #38ffe4;
 
     &:hover svg {
-      fill: #66637A;
+      fill: #38ffe4;
     }
   }
 }
 
 .entry.active {
-  background: $blue;
+  background: $mm-green;
   border-radius: 5px;
 
   svg {
@@ -43,11 +43,11 @@
 }
 
 .active .title, .active .body {
-  background: $blue;
+  background: $mm-green;
 }
 
 .title {
-  background: #797691;
+  background: #ae37a8;
   padding: 8px;
   border-radius: 5px 5px 0 0;
 
@@ -88,7 +88,7 @@
   top: 30px;
   right: 0;
   border-radius: 5px 0 5px 5px;
-  background: #797691;
+  background: #ae37a8;
   width: 535px;
   font-size: 14px;
 }
@@ -134,7 +134,7 @@
 }
 
 .active .row input {
-  background: #0E69A1;
+  background: #38ffe4;
 }
 
 .remove {

@@ -39,7 +39,7 @@ $pickerHeight: 30px;
 
 .open .chrome {
   position: relative;
-  background: white;
+  background: $black;
   border-top: none;
   padding-top: 7px;
   border-radius: 0 0 5px 5px;
@@ -47,7 +47,7 @@ $pickerHeight: 30px;
 
 .calendar {
   position: absolute;
-  background: white;
+  background: $black;
   border: 1px solid $blue;
   bottom: 29px;
   left: 0;

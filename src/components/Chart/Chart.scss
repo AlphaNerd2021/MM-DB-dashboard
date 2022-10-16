@@ -9,7 +9,7 @@
 
 .chart {
   position: relative;
-  background: white;
+  background: $black;
   padding: 0 0 40px 40px;
 }
 
@@ -57,7 +57,7 @@
   position: absolute;
   border-radius: 5px;
   border: 1px solid $blue;
-  background: white;
+  background: $black;
   padding: 8px 8px;
   text-align: center;
   min-width: 140px;

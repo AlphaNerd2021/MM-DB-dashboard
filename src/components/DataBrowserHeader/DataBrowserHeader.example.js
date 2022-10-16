@@ -18,7 +18,7 @@ class HeadersDemo extends React.Component {
   render() {
     return (
       <DndProvider backend={HTML5Backend}>
-        <div style={{ height: 30, background: '#66637A' }}>
+        <div style={{ height: 30, background: '#38ffe4' }}>
           <div style={{ float: 'left', width: 140 }}>
             <DataBrowserHeader name='objectId' type='Special' />
           </div>

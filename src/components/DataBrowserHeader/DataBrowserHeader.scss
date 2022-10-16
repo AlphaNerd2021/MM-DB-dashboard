@@ -20,7 +20,7 @@
 }
 
 .name {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 12px;
   height: 22px;
   line-height: 22px;
@@ -69,5 +69,5 @@
 }
 
 .dragging {
-  background: $blue;
+  background: $mm-green;
 }

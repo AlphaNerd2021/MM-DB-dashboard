@@ -9,7 +9,7 @@
 
 .button {
   @include DosisFont;
-  @include buttonReset($bg: none, $border: 1px solid $blue, $padding: 0 16px);
+  @include buttonReset($bg: none, $border: 1px solid $mm-green, $padding: 0 16px);
   display: inline-block;
   height: 30px;
   line-height: 28px;
@@ -18,21 +18,20 @@
   text-align: center;
   border-radius: 5px;
   font-size: 14px;
-
-  color: $blue;
+  color: $mm-pink;
 
   &:hover, &:focus {
-    background-color: $blue;
-    color: white;
+    background-color: $mm-green;
+    color: #000;
   }
 }
 
 .primary {
-  background-color: $blue;
+  background-color: $mm-pink  ;
   color: $white;
 
   &:hover, &:focus {
-    background-color: $darkBlue;
+    background-color: $mm-green;
   }
 }
 
@@ -79,16 +78,16 @@
 
   &:hover, &:focus{
     background-color: $white;
-    color: $blue;
+    color: $mm-green;
   }
 
   &.primary {
     background-color: $white;
-    color: $blue;
+    color: $mm-green;
 
     &:hover, &:focus {
-      background-color: $blue;
-      border-color: $blue;
+      background-color: $mm-green;
+      border-color: $mm-green;
       color: white;
     }
   }

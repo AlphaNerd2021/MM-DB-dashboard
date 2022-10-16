@@ -39,7 +39,7 @@ $dateRangeHeight: 30px;
 
 .open .range {
   position: relative;
-  background: white;
+  background: $black;
   border-top: none;
   padding-top: 7px;
   border-radius: 0 0 5px 5px;
@@ -47,7 +47,7 @@ $dateRangeHeight: 30px;
 
 .calendars {
   position: absolute;
-  background: white;
+  background: $black;
   border: 1px solid $blue;
   bottom: 29px;
   left: 0;

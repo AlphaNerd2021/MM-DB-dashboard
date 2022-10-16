@@ -161,7 +161,7 @@ module.exports = function(config, options) {
       try {
         var stat = fs.statSync(config.iconsFolder);
         if (stat.isDirectory()) {
-          app.use('/appicons', express.static(config.iconsFolder));
+          app.use(__dirpath, express.static(config.iconsFolder));
           //Check also if the icons really exist
           checkIfIconsExistForApps(config.apps, config.iconsFolder);
         }
@@ -191,7 +191,7 @@ module.exports = function(config, options) {
           <script>
             PARSE_DASHBOARD_PATH = "${mountPath}";
           </script>
-          <title>Parse Dashboard</title>
+          <title>Mint Machine Dashboard</title>
         </head>
         <body>
           <div id="login_mount"></div>
@@ -219,7 +219,7 @@ module.exports = function(config, options) {
           <script>
             PARSE_DASHBOARD_PATH = "${mountPath}";
           </script>
-          <title>Parse Dashboard</title>
+          <title>Mint Machine Dashboard</title>
         </head>
         <body>
           <div id="browser_mount"></div>

@@ -159,7 +159,7 @@ pre.line-numbers {
 pre.line-numbers:before {
   display: block;
   content: '';
-  background: #66637A;
+  background: #38ffe4;
   height: 100%;
   width: 33px;
   position: absolute;

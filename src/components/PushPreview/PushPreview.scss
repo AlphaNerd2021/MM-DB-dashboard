@@ -12,7 +12,7 @@
   height: 404px;
   border-radius: 5px;
   border: 1px solid $borderGrey;
-  background: #fbfbfc;
+  background: $black;
 }
 
 .left {
@@ -65,13 +65,13 @@
   width: 323px;
   height: 402px;
   border-radius: 0 5px 5px 0;
-  background-color: #F2F6F8;
+  background-color: #black;
 }
 
 .noPreview {
   width: 325px;
   height: 404px;
-  background-color: #F2F6F8;
+  background-color: #black;
   text-align: center;
   font-size: 18px;
   padding-top: 100px;
@@ -189,7 +189,7 @@
     top: 285px;
     width: 208px;
     left: 56px;
-    background: white;
+    background: $black;
     box-shadow: 0px 1px 1px rgba(0,0,0,0.24);
     padding: 20px 10px 0 40px;
     min-height: 38px;

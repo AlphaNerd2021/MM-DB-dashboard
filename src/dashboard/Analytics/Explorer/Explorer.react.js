@@ -337,15 +337,15 @@ class Explorer extends DashboardView {
         <button
           type='button'
           className={styles.toolbarAction}
-          style={{ borderRight: '1px solid #66637a' }}>
-          <Icon name='question-solid' width={14} height={14} fill='#66637a' />
+          style={{ borderRight: '1px solid #38ffe4' }}>
+          <Icon name='question-solid' width={14} height={14} fill='#38ffe4' />
           FAQ
         </button>
         <button
           type='button'
           onClick={this.handleDownload.bind(this)}
           className={styles.toolbarAction}>
-          <Icon name='download' width={14} height={14} fill='#66637a' />
+          <Icon name='download' width={14} height={14} fill='#38ffe4' />
           Download
         </button>
       </Toolbar>

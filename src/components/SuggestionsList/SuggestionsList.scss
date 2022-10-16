@@ -19,14 +19,14 @@
 }
 
 .suggestions li {
-  background: white;
+  background: $black;
   padding-left: 10px;
   font-family:"Open Sans", sans-serif;  
 }
 
 .active,
 .suggestions li:hover {
-  color: #0e69a1;
+  color: #38ffe4;
   cursor: pointer;
   font-weight: 500;
 }

@@ -20,7 +20,9 @@ export default class LoginForm extends React.Component {
   render() {
     return (
       <div className={styles.login} style={{ marginTop: this.props.marginTop || '-220px' }}>
-        <Icon width={80} height={80} name='infinity' fill='#093A59' />
+        <div className={styles.mmname}>
+          <img className={styles.logo} src="https://mintmachine.art/assets/logos/MM.png"></img> 
+        </div>
         <form method='post' ref={this.formRef} action={this.props.endpoint} className={styles.form}>
           <CSRFInput />
           <div className={styles.header}>{this.props.header}</div>
@@ -30,7 +32,9 @@ export default class LoginForm extends React.Component {
               {this.props.footer}
             </div>
           </div>
-          <input
+          
+        </form>
+        <input
             type='submit'
             disabled={!!this.props.disableSubmit}
             onClick={() => {
@@ -42,7 +46,6 @@ export default class LoginForm extends React.Component {
             }}
             className={styles.submit}
             value={this.props.action} />
-        </form>
       </div>
     );
   }

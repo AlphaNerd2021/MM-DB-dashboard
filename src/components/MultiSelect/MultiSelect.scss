@@ -25,7 +25,7 @@
 .menu {
   max-height: 200px;
   border: 1px solid $blue;
-  background: white;
+  background: $black;
   overflow: auto;
 
   > *:last-child .option {
@@ -55,14 +55,14 @@
     background: rgba(0, 0, 0, 0.1);
 
     .unchecked {
-      background: white;
+      background: $black;
     }
   }
 }
 
 .option.disabled {
   &:hover {
-    background: white;
+    background: $black;
     cursor: default;
   }
 }

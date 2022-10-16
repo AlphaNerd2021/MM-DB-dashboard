@@ -13,7 +13,7 @@
   font-size: 14px;
   line-height: 30px;
   padding: 0 16px;
-  background: #66637A;
+  background: #38ffe4;
   height: 30px;
 }
 
@@ -31,16 +31,16 @@
   font-size: 14px;
   line-height: 30px;
   padding: 0 16px;
-  background: #66637A;
+  background: #38ffe4;
   height: 30px;
 }
 
 .tr {
-  background: #fdfafb;
+  background: #222222;
   border-bottom: 1px solid $borderGrey;
 
   &:nth-child(2n) {
-    background: #f4f5f7;
+    background: #222222;
   }
 }
 

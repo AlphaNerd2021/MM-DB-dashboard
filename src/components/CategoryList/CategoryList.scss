@@ -10,22 +10,22 @@
 .class_list {
   position: relative;
   margin-bottom: 5px;
-  border-left: 1px solid #3e87b2;
+  border-left: 1px solid #38ffe4;
 
   a {
     display: block;
     padding-left: 12px;
     height: 20px;
     line-height: 20px;
-    color: #8fb9cf;
+    color: #38ffe4;
     font-size: 12px;
 
     &.active {
-      color: white;
+      color: #fff;
     }
 
     &:hover{
-      color: white;
+      color: #cc43c5;
     }
 
     span {
@@ -52,13 +52,13 @@
   position: absolute;
   width: 1px;
   height: 20px;
-  background: white;
+  background: $black;
   transition: top 0.2s cubic-bezier(1, 0, 0, 1);
 }
 
 .separator {
   margin: 6px 0 6px 12px;
-  background-color: #3e87b2;
+  background-color: #38ffe4;
   border: 0;
   height: 1px;
 }

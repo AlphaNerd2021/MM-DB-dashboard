@@ -30,7 +30,7 @@
    top: 50%;
    left: 50%;
    width: $permissionsDialogWidth;
-   background: white;
+   background: $black;
    border-radius: 5px;
    overflow: hidden;
    transition: width 0.3s 0.15s ease-out;
@@ -70,7 +70,7 @@
      cursor: pointer;
 
      svg {
-       fill: #0E69A1;
+       fill: #38ffe4;
        vertical-align: top;
      }
 
@@ -81,7 +81,7 @@
 
    .arrow {
      position: absolute;
-     @include arrow('up', 12px, 6px, #0E69A1);
+     @include arrow('up', 12px, 6px, #38ffe4);
      top: 44px;
      right: 19px;
    }
@@ -91,7 +91,7 @@
  .level {
    height: 50px;
    width: $permissionsDialogWidth; //   width: 658px;
-   background: #0E69A1;
+   background: #38ffe4;
    position: relative;
    color: white;
    transition: width 0.3s 0.15s ease-out;
@@ -241,7 +241,7 @@
 
  .row.public {
    background: rgba(22, 156, 238, 0.18);
-   border-bottom: 1px solid #0E69A1;
+   border-bottom: 1px solid #38ffe4;
    color: $blue;
  }
 
@@ -287,7 +287,7 @@
    line-height: 40px;
    text-align: center;
    border-radius: 5px;
-   background: white;
+   background: $black;
  }
 
  .entry {
@@ -345,7 +345,7 @@
 }
 
 .prefix {
-  color:  #0E69A1;
+  color:  #38ffe4;
 }
 
 .hint{

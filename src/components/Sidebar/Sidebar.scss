@@ -18,9 +18,10 @@ $footerHeight: 36px;
   top: 0;
   left: 0;
   bottom: 0;
-  background: #0c5582;
+  background: #000;
   color: #fff;
   z-index: 100;
+  border-right:2px solid $mm-green;
 
   &.collapsed {
     left: 0;
@@ -52,7 +53,7 @@ $footerHeight: 36px;
 .footer {
   @include DosisFont;
   position: absolute;
-  background: #05283c;
+  background: #ae37a8;
   padding: 9px 0;
   text-align: center;
   bottom: 0;
@@ -62,7 +63,7 @@ $footerHeight: 36px;
   a {
     color: white;
     text-decoration: none;
-    border-right: 1px solid #385261;
+    border-right: 1px solid #485358;
     font-size: 13px;
     padding: 0 12px;
     vertical-align: top;
@@ -79,7 +80,7 @@ $footerHeight: 36px;
 }
 
 .header {
-  background: #05283c;
+  background: #38ffe4;
   height: $headerHeight;
   padding: 10px 14px;
 
@@ -93,11 +94,11 @@ $footerHeight: 36px;
 .currentApp, .menuRow {
   @include ellipsis();
   display: block;
-  background: #094162;
+  background: #080808;
   height: $sidebarMenuItemHeight;
   padding: 10px 14px;
 
-  color: white;
+  color: #38ffe4;
   font-size: 18px;
   font-weight: 700;
   line-height: 30px;
@@ -105,7 +106,7 @@ $footerHeight: 36px;
 
 .menuRow {
   cursor: pointer;
-  border-bottom: 1px solid #0c5582;
+  border-bottom: 1px solid #000;
 
   > *:first-child {
     display: inline-block;
@@ -160,11 +161,11 @@ $footerHeight: 36px;
 
 .appsMenu {
   overflow: auto;
-  background: #094162;
+  background: #010101;
   width: 300px;
 
   .menuRow:hover {
-    background: #0c5582;
+    background: #000;
   }
 
   .currentApp {
@@ -191,7 +192,7 @@ $footerHeight: 36px;
   @include DosisFont;
   height: $menuSectionHeight;
   line-height: 24px;
-  background: #0c5582;
+  background: #000;
   color: #84A5BC;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -214,12 +215,12 @@ $footerHeight: 36px;
   font-size: 12px;
 
   &:hover {
-    background: #0c5582;
+    background: #000;
   }
 }
 
 .section {
-  background: #0c5582;
+  background: #000;
 
   :global(.icon) {
     margin-right: 14px;
@@ -227,12 +228,12 @@ $footerHeight: 36px;
 }
 
 .active {
-  background: #159cee;
+  background: #38ffe4;
 
   .section_header{
     font-weight: 700;
     &:hover{
-      background: #159cee;
+      background: #239788;
     }
   }
 }
@@ -246,7 +247,8 @@ $footerHeight: 36px;
   color: white;
 
   &:hover{
-    background-color: #0D5E91;
+    background-color: #000;
+    color:#38ffe4;
   }
 
   > span {
@@ -260,7 +262,7 @@ $footerHeight: 36px;
 }
 
 .section_contents {
-  background: #0e69a0;
+  background: #000000;
   padding: 16px 14px 16px 50px;
 }
 
@@ -274,13 +276,13 @@ $footerHeight: 36px;
 }
 
 a.subitem {
-  color: #8fb9cf;
+  color: #38ffe4;
   font-weight: 400;
   display: inline-block;
   width: 100%;
 
   &:hover {
-    color: white;
+    color: $mm-pink;
   }
 }
 
@@ -293,17 +295,18 @@ a.subitem {
   line-height: 20px;
   top: 4px;
   right: 0px;
-  background: #0c5987;
-  color: white;
+  background: #ae37a8;
+  color: #fff;
   border-radius: 3px;
 
   &:hover {
-    background: #094162;
+    background: #771f73;
   }
 }
 
 .logo {
   float: left;
+  color:#000;
 }
 
 .version {
@@ -317,7 +320,7 @@ a.subitem {
   float: left;
   margin-left: 6px;
   white-space: nowrap;
-  color: white;
+  color: #000;
 
   > *:first-child {
     position: absolute;
@@ -336,14 +339,14 @@ a.subitem {
   justify-content: center;
   align-items: center;
   svg {
-    fill: #0C5582;
+    fill: #000;
     transition: fill 0.2s ease-in;
     margin-right: 4px;
   }
 
   &:hover {
     svg {
-      fill: $blue;
+      fill: $mm-green;
     }
   }
 }
@@ -352,7 +355,7 @@ a.subitem {
   position: absolute;
   bottom: 4px;
   left: -183px;
-  background: white;
+  background: $black;
   width: 200px;
   border-radius: 5px;
 
@@ -399,14 +402,14 @@ a.subitem {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #094162;
+  background-color: #030303;
 
   svg {
     cursor: pointer;
     height: 40px;
     width: 40px;
     padding: 10px 10px 10px 10px;
-    fill: #132B39;
+    fill: #222222;
 
     &:hover {
       fill: white;

@@ -8,25 +8,28 @@
 @use 'sass:math';
 
 $white: #fff;
-$blue: #169cee;
+$blue: #38ffe4;
 $green: #00db7c;
 $red: #ff395e;
 $orange: #fd9539;
 $pink: #ff395e;
 $yellow: #f5a623;
-$purple: #343445;
+$purple: #4d4d4d;
+$black: #000;
+$mm-green: #38ffe4;
+$mm-pink: #ae37a8;
 
-$grey: #e0e0ea;
-$lightGrey: #f5f5f5;
-$borderGrey: #e3e3e3;
+$grey: #000;
+$lightGrey: #ae37a8;
+$borderGrey: #1b1b1b;
 $greyArrowColor: rgba(27, 27, 27, 0.57);
-$formTableGrey: #ecf0f3;
+$formTableGrey: #1f1f1f;
 $translucentGrey: rgba(151, 151, 151, 0.27);
-$inactiveTextGrey: #cccbd2;
-$progressGrey: #d8d8d8;
+$inactiveTextGrey: #6e0f61;
+$progressGrey: #474747;
 
-$darkBlue: #0e69a1;
-$lightBlue: #acd7f1;
+$darkBlue: #304d8b;
+$lightBlue: #dbdbdb;
 
 $darkGreen: #63c166;
 $lightGreen: #a8f0ad;
@@ -34,20 +37,20 @@ $lightGreen: #a8f0ad;
 $darkRed: #CE2E4B;
 $lightRed: #fbc3bd;
 
-$mainTextColor: #555572;
+$mainTextColor: #19191a;
 $secondaryTextColor: #a5a5b4;
-$platformCardTextColor: #768c97;
+$platformCardTextColor: #151616;
 $platformCardSecondaryTextColor: rgba(118, 140, 151, 0.5);
 
 $inputBackgroundColor: #f6fafb;
 
 $logViewBackgroundColor: #fdfafb;
 
-$explorerQueryBackgroundColor: #148fdb;
+$explorerQueryBackgroundColor: #32373a;
 $borderRadiusConst: 5px;
 
 $pushDetailsHeaderBackground: #FBFBFC;
-$pushDetailsContent: #66637A;
+$pushDetailsContent: #38ffe4;
 
 // neutral open rate colors for push experiment
 $darkPurple: #8D11BA;

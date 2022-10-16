@@ -11,19 +11,19 @@ html, body {
   min-height: 100vh;
 }
 html{
-  background-color: #110D11;
+  background-color: #000;
 }
 
 body {
   @include NotoSansFont;
   box-sizing: border-box;
-  color: $mainTextColor;
-  background-color: #110D11;
+  color: $mm-green;
+  background-color: #000;
 }
 
 :global(#browser_mount) {
   min-height: 100vh;
-  background: #FDFAFB;
+  // background: #cacaca;
 }
 
 * {
@@ -36,16 +36,16 @@ body {
 
 ::-moz-selection {
   color: white;
-  background: $blue;
+  background: $black;
 }
 
 ::selection {
   color: white;
-  background: $blue;
+  background: $black;
 }
 
 a {
-  color: $blue;
+  color: $black;
   cursor: pointer;
   text-decoration: none;
 }
@@ -92,7 +92,7 @@ table {
 }
 
 .progressBackground {
-  background-color: $blue;
+  background-color: $black;
 }
 
 .failedText {
@@ -104,5 +104,5 @@ table {
 }
 
 .progressText {
-  color: $blue;
+  color: $black;
 }

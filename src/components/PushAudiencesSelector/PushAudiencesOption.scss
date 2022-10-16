@@ -19,13 +19,13 @@
     margin-right: 10px;
   }
   &:nth-child(even) {
-    background: #f2f6f8;
+    background: #000;
   }
   &:nth-child(odd) {
-    background: #fbfbfc;
+    background: #222;
   }
   &:hover {
-    background: #EAEAEA;
+    background: $mm-pink;
   }
   &.everyone {
     .audienceInfo {
@@ -83,13 +83,13 @@
       }
 
       .detailsHeaderListItem {
-        color: $secondaryTextColor;
+        color: $mm-pink;
       }
     }
 
     .moreDetails {
       @include buttonReset;
-      color: $blue;
+      color: $mm-green;
 
       &.hideMoreDetails {
         display: none;

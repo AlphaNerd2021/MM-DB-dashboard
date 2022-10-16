@@ -41,7 +41,7 @@ body:global(.expanded) {
   display: inline-block;
   height: 18px;
   width: 1px;
-  background: #66637A;
+  background: #38ffe4;
   vertical-align: bottom;
   margin: 0 4px;
 }
@@ -58,7 +58,7 @@ body:global(.expanded) {
   svg {
     vertical-align: middle;
     margin-right: 4px;
-    fill: #66637A;
+    fill: #38ffe4;
   }
 
   &:hover {
@@ -76,10 +76,10 @@ body:global(.expanded) {
 
 .toolbarButtonDisabled {
   cursor: not-allowed;
-  color: #66637A;
+  color: #38ffe4;
 
   &:hover svg {
-    fill: #66637A;
+    fill: #38ffe4;
   }
 }
 
@@ -102,10 +102,10 @@ body:global(.expanded) {
   font-size: 12px;
   white-space: nowrap;
   height: 30px;
-  border-bottom: 1px solid #e3e3ea;
+  border-bottom: 0px solid #e3e3ea;
 
   &:nth-child(odd) {
-    background: #F4F5F7;
+    background: #19191a;
   }
 }
 
@@ -115,7 +115,7 @@ body:global(.expanded) {
   height: 30px;
   line-height: 31px;
   vertical-align: top;
-  border-right: 1px solid #e3e3ea;
+  border-right: 1px solid #444444;
   text-align: center;
 }
 
@@ -231,13 +231,13 @@ body:global(.expanded) {
     right: 0;
     width: 142px;
     font-size: 12px;
-    color: #0E69A1;
-    background: #F4F5F7;
+    color: #fff;
+    background: #000;
     font-family: 'Source Code Pro', 'Courier New', monospace;
 
     .selectionHeader {
-      background: rgb(102, 99, 122);
-      color: white;
+      background: #ae37a8;
+      color: #38ffe4;
       height: 30px;
       padding-top: 5px;
       padding-left: 10px;

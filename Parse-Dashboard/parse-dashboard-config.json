@@ -1,14 +1,27 @@
 {
   "apps": [
     {
-      "serverURL": "http://localhost:1337/parse",
-      "appId": "hello",
-      "masterKey": "world",
-      "appName": "",
-      "iconName": "",
-      "primaryBackgroundColor": "",
-      "secondaryBackgroundColor": ""
+      "serverURL": "https://api.mintmachine.art/api",
+      "appId": "mintmachine",
+      "masterKey": "jLLVCQB7hDRrvmd7",
+      "appName": "Mint Machine",
+      "iconName": "MMnfTools_mmnft.png",
+      "primaryBackgroundColor": "#000",
+      "secondaryBackgroundColor": "#",
+      "supportedPushLocales": ["en", "ru", "fr"]
     }
   ],
-  "iconsFolder": "icons"
+  "users": [
+    {
+      "user":"DracattusDev",
+      "pass":"MintMachine2022!",
+      "apps": [{"appId": "mintmachine"}]
+    },
+    {
+      "user":"DegenWaffle",
+      "pass":"MintMachine2022!",
+      "apps": [{"appId": "mintmachine"}]
+    }  
+  ],
+  "iconsFolder": "/"
 }
