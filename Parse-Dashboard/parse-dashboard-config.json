@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "serverURL": "https://api.mintmachine.art/api",
+      "serverURL": "https://mintmachine.art/api",
       "appId": "mintmachine",
       "masterKey": "jLLVCQB7hDRrvmd7",
       "appName": "Mint Machine",
